@@ -108,7 +108,7 @@ def main():
 
     if n > 1:
         print("The sheep is safe!")
-        drawGraph(paths, edges)
+        showGraphs(paths, edges)
     else:
         print("Oh no! There are no safe pathways!")
         drawGraph(edges)
